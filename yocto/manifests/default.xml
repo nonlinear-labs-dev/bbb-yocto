@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default revision="master" sync-j="8"/>
+
+  <remote fetch="git://git.yoctoproject.org/" name="yocto"/>
+  <remote fetch="git://github.com" name="github"/>
+  <remote fetch="git://git.openembedded.org" name="oe"/>
+
+  <project remote="yocto" name="poky" revision="refs/tags/sumo-19.0.0" path="poky"/>
+  <project remote="oe" name="meta-openembedded" revision="sumo" path="meta-openembedded"/>
+  <project remote="yocto" name="meta-java" revision="sumo" path="meta-java"/>
+  <project remote="github" name="pascalhuerst/meta-nonlinear" path="meta-nonlinear"/>
+  <project remote="github" name="nonlinear-labs-dev/meta-bbb" path="meta-bbb"/>
+</manifest>
