@@ -10,5 +10,5 @@
   <project remote="oe" name="meta-openembedded" revision="sumo" path="meta-openembedded"/>
   <project remote="yocto" name="meta-java" revision="sumo" path="meta-java"/>
   <project remote="github" name="pascalhuerst/meta-nonlinear" path="meta-nonlinear"/>
-  <project remote="github" name="nonlinear-labs-dev/meta-bbb" path="meta-bbb"/>
+  <project remote="github" name="nonlinear-labs-dev/meta-bbb" revision="sumo" path="meta-bbb"/>
 </manifest>
